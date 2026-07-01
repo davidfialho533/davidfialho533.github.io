@@ -85,9 +85,19 @@ img {
 }
 
 .nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
   font-size: 1.5rem;
   font-weight: 700;
   letter-spacing: -0.03em;
+}
+
+.nav-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .nav-logo .accent {
